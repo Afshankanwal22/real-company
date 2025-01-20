@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Real Estate</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
@@ -12,18 +12,16 @@
   </head>
   <body>
     <!-- Navbar -->
-        <nav class=" navbar container-fluid navbar-expand-lg bg-body-tertiary rounded-pill m-3 ">
-        <div class="container-fluid  ">
-          
-          <a class="navbar-brand"  href="#">
-            <img src="Logo (2).png" alt="" width="90px">
-          </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button> 
-          <div class="collapse navbar-collapse"  id="navbarSupportedContent">
-            <ul class="navbar-nav  me-auto mb-2 mb-lg-0 border rounded-pill border-white bg-white p-2 navi">
-              <li class="nav-item  ">
+
+   <nav class="navbar container-fluid hstack gap-3 text-center navbar-expand-lg bg-body-tertiary  rounded-pill">
+     <div class="container-fluid">
+     <a class="navbar-brand" href="#">
+    <img src="Logo (2).png" alt="" width="90px"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation ">
+    <span class="navbar-toggler-icon"></span></button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0  border rounded-pill border-white bg-white p-2">
+            <li class="nav-item">
                 <a class="nav-link active " aria-current="page" href="#">About us</a>
               </li>
               <li class="nav-item ">
@@ -35,87 +33,83 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Services</a>
               </li>
-              <li class="nav-item d-flex">
-                <a class="nav-link " href="#">Listings</a>
+              <li class="nav-item d-flex justify-content-center align-items-center">
+                <a class="nav-link  " href="#">Listings</a>
                 <img class="search" src="search-normal.png" alt="" width="18px" height="18px">
                 
               </li>
               </ul>
                
-              <form class="me-auto mb-2 mb-lg-0 d-flex  align-items-center gap-2 ms-auto ">
-                <a class="nav-link other" href="#">Other services</a>
+              <form class="ms-auto mb-2 mb-lg-0 d-flex justify-content-center align-items-center gap-2 ms-auto  nav">
+                <a class="nav-link other text-black" href="#">Other services</a>
             
-                <button class="nav-link py-2 px-3  border rounded-pill bg-white contact " type="submit">Contact us</button>
+                <button class="nav-link py-2 px-3  border rounded-pill bg-white text-black contact " type="submit">Contact us</button>
               </form>
           </div>
           </div>
         </div>
       </nav>
 
-      <!-- hero- section -->
-    <div  class=" dibs d-flex border m-2 rounded justify-content-between"  >
-        <div class="one">
-            <p class="">
-                Welcome to Realstate
-            </p>
-            <h1 class="fw-bolder ">
-                Manage Your
-            </h1>
-            <h1 class="fw-bolder">
-                Property
-            </h1>
-            <p class="para1s" >
-                You will have everything nearby supermarket,buses,
-            </p>
-            <p class="para1">
-                station,the carmen neighborhood,etc
-            </p>
-            <input class=" input border rounded-start-pill btn-lg p-2  d-inline-flex focus-ring" type="text" placeholder="Enter your Email">
-            <button class="input2 border rounded-pill btn-lg bg-black text-white d-inline-flex focus-ring focus-ring-dark"> Get a Quote</button>
-            
-        </div>
-        <div class="image">
-          <img src="Group 2 (1).png" alt="" width="500px">
-      </div>
-        
 
+    <div class="card mb-3 border m-2 ms-auto dibs " >
+      <div class="row g--0">
+        <div class="col-md-15 d-flex card-img">
+          <div class="card-body">
+            <p>Welcome to Realstate</p>
+            <h1 class="card-title fw-bolder"> Manage Your <br>  Property</h1>
+            <p class="card-text">  You will have everything nearby supermarket,buses,<br> station,the carmen neighborhood,etc</p>
+            
+            <div class="">
+            <input class=" input border rounded-start-pill btn-lg p-2  d-inline-flex focus-ring" type="text" placeholder="Enter your Email">
+            <button class="input2 border rounded-pill btn-lg bg-black text-white d-inline-flex focus-ring focus-ring-dark"> Get a Quote</button></div>
+          </div>
+          <div class="col-md-4 imgs">
+            <img src="Group 2 (1).png" class="img-fluid rounded-start" alt="..." style="height: 370px;" >
+          </div>
+        
+        </div>
+      </div>
     </div>
 
-    <div  class="text-center second">
+        
+    <div  class="container-fluid text-center second">
         <p class="">
             Three steps. Three minutes.
         </p>
         <h1 class="fs-2 fw-bolder">Everything should be this easy.</h1>
     </div>
-    <div class="container ">
+     <div class="container ">
 
-      <div class="row ">
+      <div class="row  ">
         <div class="col p-4 ">
-          <img class="py-3" src="messages.png" alt="" width="50px">
+          <img class="py-3" src="messages.png" class="img-fliud" alt="" width="50px">
           <h1 class="fw-bold fs-4 ">Answer questions</h1>
           <p>Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum in in vestibulum. </p>
         </div>
         <div class="col p-4 ">
-          <img class="py-3" src="sms-tracking.png" alt="" width="50px">
+          <img class="py-3" src="sms-tracking.png" class="img-fliud" alt="" width="50px">
           <h1 class="fw-bold fs-4 ">Select a quote</h1>
           <p>Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum in in vestibulum. </p>
         </div>
         <div class="col p-4 ">
-          <img class="py-3" src="edit-2.png" alt="" width="50px">
+          <img class="py-3" src="edit-2.png" class="img-fliud" alt="" width="50px">
           <h1 class="fw-bold fs-4 ">Get registered</h1>
           <p>Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum in in vestibulum. </p>
         </div>
       </div>
     </div>
-        </div>
+   
+   
+        
     
-        <div class=" m-4 d-flex justify-content-between ">
+        <div class=" container m-4 d-flex justify-content-between">
         <h1 class="fs-1 fw-bold">Our recent projects</h1>
-        <img  src="Group 18 (2).png" alt="" width="70px" height="60px" ></div>
+        <img  src="Group 18 (2).png" class="img-fliud" alt="" width="70px" height="60px" ></div>
 
-        <div class=" d-flex gap-3 m-4 cards " >
-        <div class="card border  " style="width: 26rem;" >
-            <img src="3d-rendering-house-model (1) 1 (1).png" class="card-img-top" alt="..." >
+       
+        <div class="card-group gap-3 m-4 rounded">
+          <div class="card rounded">
+            <img src="3d-rendering-house-model (1) 1 (1).png" class="card-img-top" alt="..." style="height: 300px;">
             <div class="card-body">
               <h5 class="card-title">Sobha Hearland II Villas</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum.4.83</p>
@@ -123,60 +117,57 @@
               <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
               <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
               <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-              <i class="fa-regular fa-star"  style="color: rgb(160, 155, 155);"></i>
+              <i class="fa-regular fa-star" style="color: rgb(160, 155, 155);"></i>
               <span class="px-4">4.83</span>
             </div>
           </div>
-
-            <div class="card border" style="width: 26rem;">
-                <img src="3d-rendering-house-model (3) 1.png" class="card-img-top" alt="..." width="150px" height="310px">
-                <div class="card-body">
-                  <h5 class="card-title">Sobha Hearland II Villas</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum.4.83</p>
-                  <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                  <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                  <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                  <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                  <i class="fa-regular fa-star"  style="color: rgb(160, 155, 155);"></i>
-                  <span class="px-4">4.83</span>
-                </div>
+          <div class="card border  rounded">
+            <img src="3d-rendering-house-model (3) 1.png" class="card-img-top" alt="..." style="height: 300px;">
+            <div class="card-body">
+              <h5 class="card-title">Sobha Hearland II Villas</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum.4.83</p>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-regular fa-star" style="color: rgb(160, 155, 155);"></i>
+              <span class="px-4">4.83</span>
             </div>
-                <div class="card border" style="width: 26rem ;">
-                    <img src="3d-view-house-model 1 (1).png" class="card-img-top" alt="..." height="310px">
-                    <div class="card-body">
-                      <h5 class="card-title">Sobha Hearland II Villas</h5>
-                      <p class="card-text">Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum.4.83</p>
-                      <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                      <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                      <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                      <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                      <i class="fa-regular fa-star" style="color: rgb(160, 155, 155);"></i>
-                      <span class="px-4">4.83</span>
-                    </div>
-                  </div>
+          </div>
+          <div class="card border rounded">
+            <img src="3d-view-house-model 1 (1).png" class="card-img-top" alt="..." style="height: 300px;">
+            <div class="card-body">
+              <h5 class="card-title">Sobha Hearland II Villas</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum.4.83</p>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-regular fa-star" style="color: rgb(160, 155, 155);"></i>
+              <span class="px-4">4.83</span>
+            </div>
           </div>
         </div>
-      </div>
+      </div> 
 
-          <div class="text-center m-5  ">
+          <div class="container text-center m-5 ">
             <h1 class="fs-1 fw-bold ">
                 We are a global, boutique real</h1>
                 <h1 class="fs-1 fw-bold">estate brokerage</h1></div>
 
-                <div class="d-flex m-4 cards justify-content-between">
+                <div class="d-flex m-4 cards justify-content-between cards">
                 <div class="four">
                 <h2 class="fs-2 fw-bolder py-3">
                     The transfer of real estate
                 </h2>
-                <p class="para1" >
-                    Lorem ipsum dolor sit amet consectetur. Feugiat ut aliquet</p>
-                    <p class="para1">sit pellentesque sollicitudin. Egestas faucibus lacus diam in</p> 
-                    <p class="para1">senectus consectetur. Mattis elit adipiscing quisque tellus</p>
-                    <p class="para1">scelerisque vehicula ante nunc. Tellus consequat nisl quis</p>
-                    <p class="para1">nisl justo.</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur. Feugiat ut aliquet <br>
+                    sit pellentesque sollicitudin. Egestas faucibus lacus diam in <br>
+                    senectus consectetur. Mattis elit adipiscing quisque tellus <br>
+                    celerisque vehicula ante nunc. Tellus consequat nisl quis <br>
+                    nisl justo.</p>
                 <div class="py-4"><button type="button" class="btn btn-primary  rounded-pill btn-lg bg-black d-inline-flex focus-ring focus-ring-dark ">Back Now!</button>
-                <button type="button" class="btn btn-secondary rounded-pill btn-lg bg-white text-secondary-emphasis 
-                d-inline-flex focus-ring focus-ring-light ">Read More</button></div>
+                <button type="button" class="btn btn-secondary rounded-pill btn-lg bg-white text-secondary-emphasis d-inline-flex focus-ring focus-ring-light ">Read More</button></div>
                
                
                
@@ -205,7 +196,7 @@
       </div>
                 
       <div class="image">
-      <img src="Group 20 (1).png" alt="" width="450px"></div>
+      <img  src="Group 20 (1).png" class="img-fliud" alt=""  height="400px"></div>
      
           </div>
             
@@ -213,25 +204,30 @@
    
           </div>
 
-  
-    <div class=" dib d-flex border m-4 rounded justify-content-between">
-      <div class=" one">
-        <h1 class="heading fs-1 fw-bolder py-3">
-          Subscribe Our Newsletter
-        </h1>
-        <p class="para1">
-          Lorem ipsum dolor sit amet consectetur. Feugiat ut aliquet sit</p>
-          <p class="para1">pellentesque sollicitudin. Egestas faucibus lacus diam in senectus</p>
-          <p class="para1">consectetur. Mattis elit adipiscing quisque tellus scelerisque</p>
-          <p class="para1">vehicula ante nunc.</p>
-          <input class=" input border rounded-start-pill btn-lg p-2  d-inline-flex focus-ring" type="text" placeholder="Enter your Email">
-            <button class="input2 border rounded-pill btn-lg bg-black text-white d-inline-flex focus-ring focus-ring-dark"> Get a Quote</button>
+    <div class="card mb-3 dib border m-2 rounded d " >
+      <div class="row g--0">
+        <div class="col-md-15 d-flex card-img">
+          <div class="card-body">
+            <h1 class="fs-1 fw-bolder py-3">Subscribe Our Newsletter</h1>
+            
+            <p class="card-text"> Lorem ipsum dolor sit amet consectetur. Feugiat ut aliquet sit <br>
+              pellentesque sollicitudin. Egestas faucibus lacus diam in senectus <br>
+              consectetur. Mattis elit adipiscing quisque tellus scelerisque <br>
+              vehicula ante nunc.
+
+            </p>
+             <div>
+            <input class=" input border rounded-start-pill btn-lg p-2  d-inline-flex focus-ring" type="text" placeholder="Enter your Email">
+            <button class="input2 border rounded-pill btn-lg bg-black text-white d-inline-flex focus-ring focus-ring-dark"> Get a Quote</button></div>
+          </div>
+          <div class="col-md-4">
+            <img src="3d-rendering-isometric-fdgdf 1 (1).png" class="img-fluid " alt="..." style="height: 400px;" >
+          </div>
           
-      </div>
-      <div class="image2">
-        <img  src="3d-rendering-isometric-fdgdf 1 (1).png" alt="" width="450px" >
+        </div>
       </div>
     </div>
-
+    
+    <script src="app.js"></script>
   </body>
 </html>

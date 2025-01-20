@@ -1,9 +1,3 @@
-/* *{
-    margin: 0px;
-    padding: 0px;
-} */
-
-
 .one{
 padding-left: 30px;
 padding-top: 20px;
@@ -43,119 +37,101 @@ padding-top: 20px;
 .dibs{
     background: rgb(193,222,232);
     background: linear-gradient(90deg, rgba(193,222,232,1) 0%, rgba(251,217,185,1) 100%);
-    height: 405px;
 }
-/* .navi{
-    width: 400px; 
-     margin-left: 260px;
-     } 
-
-.nav-link {
-text-align: center;
-}
-
-  .search{
-    margin-top: 10px;
-}
-.logo{
-    margin-left: 10px;
-}
-.con{
-    width: 120px;
-    text-align: center;
-} 
-.contact{
-    margin-left: 60px; 
-}
-
-.other{
-    margin-left: 140px;
-}
-.logo-nav{
-    padding-left: 20px;
-}  */
- .navbar{
-    /* box-shadow:3px 3px 3px rgb(162, 166, 168); */
-    margin-top: 10px;  
- }
 
 .third{
     padding-top: 25px;
     justify-content: space-evenly;   
 }
-.para1{
-    line-height: 8px;
-    
-}
-.para1s{
-    padding-top: 30px;
-    line-height: 8px;
-}
+
 .logo{
       padding-left: 500px; 
 }
+
+
+
 @media screen and (max-width:576px){
+     
+   .row{
+       display: block !important;
+   }
+   .navbar-nav{
+       background-color: rgb(248, 249, 250) !important;
+       border: none !important;
+   }
+   .navbar {
+    height: auto !important;
+    width: 410px!important;
+   }
+   .cards{
+       display:block !important;
+       
+   }
+   .card-img{
+        display:block !important;
     
-    .dib{
-        display: block !important;
-      height: 650px;
-      width: 550px;
-    
-    }
-    .dibs{
-        display: block !important;
-        height: 690px;
-        width: 640px;
+   }
+   .dib{
+    height: auto !important; 
+    margin-left: 20px !important;
 
-    }
-    .cards{
-        display: block !important;
-        
-        
-    }
-    .row{
-        display: block !important;
-    }
-
-    
+   }
+   .dibs{
+    height: auto !important;
+    margin-left: 15px !important;
 }
-@media screen and (max-width:768px) {
-    .dib{
-        display: block !important;
-      height: 650px;
-      width: 550px;
+.card{
+    width: 390px !important;
+}
+.image{
+    width: 150px !important;
+}
+.imgs{
+    width: 350px !important;
+
+}
+}
+
+
+
+
+@media screen and(max-width:768px) {
+    .imgs{
+        width: 350px !important;
     
-    }
-    .dibs{
-        display: block !important;
-        height: 690px;
-    }
-    .cards{
-        display: block !important;
-        
     }
     .card{
-        width: 600px !important;
-
+        width: 390px !important;
     }
-    .navi{
-        border: none !important;
-        background:none !important;
-    
-    }
-    .contact{
-        border: none !important;
-        background: none !important;
-    }
-    .row{
+   .row{
+       display: block !important;
+       
+   }
+   .navbar-nav{
+       background-color: rgb(248, 249, 250) !important;
+       border: none !important;
+   }
+    .cards{
         display: block !important;
     }
+    .card-img{
+        display:block !important;
+   }
+   .dib{
+    height: auto !important;
+    width: auto !important;
     
-    
-        
-    
-
-    
-}
-
- 
+   }
+   .dibs{
+    height: auto !important;
+    width: auto !important;
+   }
+   .image{
+    width: 150px !important;
+   }
+   .navbar {
+    height: auto !important;
+    width: 430px!important;
+   }
+   
+} 
